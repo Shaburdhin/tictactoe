@@ -72,7 +72,7 @@ function checkWinner(){
       boxs[condition[2]].classList.add('win');
     }
   }
-
+  
   if(isWon){
     statusTxt.textContent=`${player} Won..`;
     running=false;
